@@ -1,0 +1,15 @@
+@import './vars.scss';
+@import './ui.scss';
+@import './components/left-block/index.scss';
+@import './components/right-block/index.scss';
+
+body {
+  overflow: hidden;
+  font-family: 'Helvetica';
+}
+
+#canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}

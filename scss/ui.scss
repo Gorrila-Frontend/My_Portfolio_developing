@@ -1,0 +1,52 @@
+.icon {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+ border-radius: 50%;
+  // background: rgba(0, 0, 0, 0.8);
+  line-height: 50px;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  .fab{
+    color: #000;
+  }
+  &:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4);
+
+  }
+
+
+}
+
+.submit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 0.1s ease;
+}
+
+.submit:active {
+  transform: scale(0.95);
+}
+
+h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold;
+}
+.collapse-table {
+  height: 250px;
+  margin-bottom: 30px;
+}
+.collapsible-header:hover {
+  background-color: #EEEEEE;
+}
+.block-header-text {
+  margin-bottom: 30px;
+}
+.content-block {
+  width: 100%;
+}

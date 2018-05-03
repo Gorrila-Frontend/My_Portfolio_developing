@@ -1,0 +1,94 @@
+#right-block {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -70%;
+  width: 70%;
+  background: white;
+  border-left: solid 1px #cccccc;
+  transition: all $delay ease;
+  &.expanded {
+    right: 0;
+    overflow: scroll;
+  }
+}
+
+.content-block {
+  display: flex;
+  flex-flow: column wrap;
+  widows: 100%;
+  height: auto;
+  padding: 30px;
+  .content-block-header {
+    display: flex;
+    margin-bottom: 30px;
+    .block-header-icon {
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: solid 1px black;
+      margin-right: 20px;
+      i {
+        line-height: 50px;
+      }
+    }
+    .block-header-text {
+      flex-grow: 1;
+      h3 {
+        margin: 0;
+        margin-top: 10px;
+      }
+      hr {
+        width: 100%;
+        margin: 0;
+        margin-top: 15px;
+      }
+    }
+  }
+}
+
+#instruments {
+  table > tbody > tr > td {
+    padding: 0 30px 0 0;
+  }
+  .progress {
+    width: 100%;
+    height: 6px;
+    border-radius: 3px;
+    background-color: lighten($blue, 20%);
+    .determinate {
+      border-radius: 3px;
+      background-color: $blue;
+    }
+  }
+}
+
+.contacts {
+  width: 470px;
+  td {
+    font-size: 30px;
+    padding-bottom: 5px;
+    &.first {
+      font-size: 16px;
+      font-weight: bold;
+    }
+    &.two {
+      font-size: 16px;
+    }
+  }
+}
+
+h5 {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+
+.collapsible {
+  position: absolute;
+  right: 0px;
+  height: auto;
+  width: 100%;
+  margin-top: 80px;
+}

@@ -1,0 +1,189 @@
+.icon {
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  line-height: 50px;
+  transition: opacity 0.3s ease;
+  cursor: pointer;
+  padding-top: 5px;
+  padding-bottom: 5px; }
+  .icon .fab {
+    color: #000; }
+  .icon:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.4); }
+
+.submit {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  transition: all 0.1s ease; }
+
+.submit:active {
+  transform: scale(0.95); }
+
+h3 {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: bold; }
+
+.collapse-table {
+  height: 250px;
+  margin-bottom: 30px; }
+
+.collapsible-header:hover {
+  background-color: #EEEEEE; }
+
+.block-header-text {
+  margin-bottom: 30px; }
+
+.content-block {
+  width: 100%; }
+
+#left-block {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  transition: all 0.7S ease; }
+  #left-block.expanded {
+    width: 30%; }
+
+#left-block > .container {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  margin: 0 auto;
+  transition: all 0.7S ease; }
+  #left-block > .container img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 35px; }
+  #left-block > .container h1 {
+    font-size: 50px;
+    transition: all 0.7S ease; }
+  #left-block > .container hr {
+    height: 3px;
+    width: 70%;
+    background-color: #2196F3;
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    transition: all 0.7S ease; }
+  #left-block > .container h2 {
+    font-size: 26px;
+    text-transform: uppercase;
+    transition: all 0.7S ease; }
+  #left-block > .container .social-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    width: 70%;
+    height: 50px; }
+    #left-block > .container .social-bar .icon {
+      margin: 10px;
+      transition: all 0.1s ease; }
+    #left-block > .container .social-bar .icon:active {
+      transform: scale(0.9); }
+
+#left-block.expanded > .container {
+  width: 100%; }
+  #left-block.expanded > .container h1 {
+    font-size: 30px;
+    transition: all 0.7S ease; }
+  #left-block.expanded > .container h2 {
+    font-size: 16px;
+    transition: all 0.7S ease; }
+  #left-block.expanded > .container hr {
+    width: 40%; }
+
+#right-block {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -70%;
+  width: 70%;
+  background: white;
+  border-left: solid 1px #cccccc;
+  transition: all 0.7S ease; }
+  #right-block.expanded {
+    right: 0;
+    overflow: scroll; }
+
+.content-block {
+  display: flex;
+  flex-flow: column wrap;
+  widows: 100%;
+  height: auto;
+  padding: 30px; }
+  .content-block .content-block-header {
+    display: flex;
+    margin-bottom: 30px; }
+    .content-block .content-block-header .block-header-icon {
+      text-align: center;
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      border: solid 1px black;
+      margin-right: 20px; }
+      .content-block .content-block-header .block-header-icon i {
+        line-height: 50px; }
+    .content-block .content-block-header .block-header-text {
+      flex-grow: 1; }
+      .content-block .content-block-header .block-header-text h3 {
+        margin: 0;
+        margin-top: 10px; }
+      .content-block .content-block-header .block-header-text hr {
+        width: 100%;
+        margin: 0;
+        margin-top: 15px; }
+
+#instruments table > tbody > tr > td {
+  padding: 0 30px 0 0; }
+
+#instruments .progress {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background-color: #82c4f8; }
+  #instruments .progress .determinate {
+    border-radius: 3px;
+    background-color: #2196F3; }
+
+.contacts {
+  width: 470px; }
+  .contacts td {
+    font-size: 30px;
+    padding-bottom: 5px; }
+    .contacts td.first {
+      font-size: 16px;
+      font-weight: bold; }
+    .contacts td.two {
+      font-size: 16px; }
+
+h5 {
+  font-weight: bold;
+  font-size: 16px; }
+
+.collapsible {
+  position: absolute;
+  right: 0px;
+  height: auto;
+  width: 100%;
+  margin-top: 80px; }
+
+body {
+  overflow: hidden;
+  font-family: 'Helvetica'; }
+
+#canvas {
+  position: absolute;
+  width: 100%;
+  height: 100%; }

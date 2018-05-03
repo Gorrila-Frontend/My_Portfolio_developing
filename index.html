@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <link rel = "stylesheet"
+         href = "https://fonts.googleapis.com/icon?family=Material+Icons">
+      <link rel = "stylesheet"
+         href = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+         <link rel="stylesheet" href="css/index.css">
+           <link href="jsCarousel.css" rel="stylesheet" type="text/css" />
+                 <script type="text/javascript" src="javascript/index.js"></script>
+
+      <script type = "text/javascript"
+         src = "https://code.jquery.com/jquery-2.1.1.min.js"></script>
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+      <script src = "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js">
+      </script>
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+
+      <script src="jquery-1.9.1.min.js"></script>
+
+      <script>
+   function showToast(message, duration) {
+      Materialize.toast(message, duration);
+   }
+
+   function showToast1(message, duration) {
+      Materialize.toast('<i>'+ message + '</i>', duration);
+   }
+
+   function showToast2(message, duration) {
+      Materialize.toast(message, duration, 'rounded');
+   }
+
+   function showToast3(message, duration) {
+      Materialize.toast('Hello World!', duration, '', function toastCompleted() {
+         alert('Toast dismissed!');
+      });
+   }
+</script>
+
+
+  <title>Document</title>
+</head>
+<body>
+  <canvas id="canvas"></canvas>
+  <div class="expanded" id="left-block">
+    <div class="container">
+      <img src="./css/image/author.jpg" id="photo" />
+      <h1>Anton Lobanov</h1>
+      <hr/>
+      <h2>Frontend Developer</h2>
+      <div class="social-bar">
+        <div class="icon">
+          <a href="https://www.facebook.com/profile.php?id=100016666712579"><i class="fab fa-facebook-square fa-2x"  ></a></i>
+        </div>
+        <div class="icon">
+          <a href="https://vk.com/bayrer"><i class="fab fa-vk fa-2x"></a></i>
+        </div>
+        <div class="icon">
+          <a href="https://www.instagram.com/lobanov_ant_k/"><i class="fab fa-instagram fa-2x"></a></i>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="expanded" id="right-block">
+    <div class="content-block">
+
+      <table class="contacts">
+        <tr>
+          <td class="first">AGE:</td>
+          <td class="two">22</td>
+        </tr>
+        <tr>
+          <td class="first">E-MAIL:</td>
+          <td class="two">wrestbild57@gmail.com</td>
+        </tr>
+        <tr>
+          <td class="first">PHONE:</td>
+          <td class="two">+7(910)-208-0754</td>
+        </tr>
+        <tr>
+          <tr>
+            <td class="first">ADDRESS:</td>
+            <td class="two">Orel.Oktyabr'skaya street 25</td>
+          </tr>
+          <td class="first">LANGUAGE:</td>
+          <td class="two">Russian</td>
+        </tr>
+      </table>
+      <div class="submit">
+        <a class="waves-effect waves-light btn black">
+          <i class="material-icons right">file_download</i>Portfolio
+        </a>
+      </div>
+    </div>
+    <div class="content-block" id="instruments">
+      <div class="content-block-header">
+        <div class="block-header-icon">
+          <i class="skills material-icons ">build</i>
+        </div>
+        <div class="block-header-text">
+          <h3>Professional skils</h3>
+          <hr/>
+        </div>
+      </div>
+      <table>
+        <tr>
+          <td>
+            <h5 class="hskills">HTML5 100%</h5>
+            <div class="progress">
+            <div class="determinate" style="width: 100%"></div>
+          </div>
+          </td>
+          <td>
+            <h5 class="hskills">CSS3 100%</h5>
+            <div class="progress">
+            <div class="determinate" style="width: 100%"></div>
+          </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5 class="hskills">SCSS 90%</h5>
+            <div class="progress">
+            <div class="determinate" style="width: 90%"></div>
+          </div>
+          </td>
+          <td>
+            <h5 class="hskills">Javascript 85%</h5>
+            <div class="progress">
+            <div class="determinate" style="width: 85%"></div>
+          </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <h5 class="hskills">Bootstrap & Foundation 60%</h5>
+            <div class="progress">
+            <div class="determinate" style="width: 60%"></div>
+          </div>
+          </td>
+          <td>
+            <h5 class="hskills">NPM & Gulp & Webpack 70%</h5>
+          <div class="progress">
+            <div class="determinate" style="width: 70%"></div>
+          </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <div class="content-block">
+      <div class="content-block-header">
+        <div class="block-header-icon">
+          <i class="skills material-icons ">next_week</i>
+        </div>
+        <div class="block-header-text">
+          <h3>Education</h3>
+          <hr/>
+        </div>
+
+
+
+    </div>
+  </div>
+    <div class="content-block">
+      <div class="content-block-header">
+        <div class="block-header-icon">
+          <i class="skills material-icons ">next_week</i>
+        </div>
+
+
+        <div class="block-header-text">
+          <h3>MY WORK EXPERIENCE</h3>
+          <hr/>
+        </div>
+      </div>
+
+    </div>
+    <div class="content-block">
+      <div class="content-block-header">
+        <div class="block-header-icon">
+          <i class="skills material-icons ">perm_media</i>
+        </div>
+
+
+        <div class="block-header-text ">
+          <h3>PORTFOLIO</h3>
+          <hr/>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-block">
+      <div class="content-block-header">
+        <div class="block-header-icon">
+          <i class="skills material-icons ">perm_media</i>
+        </div>
+        <div class="block-header-text">
+          <h3>OUR HOBBIES</h3>
+          <hr/>
+        </div>
+      </div>
+    </div>
+
+      </div>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="node_modules/particlesjs/dist/particles.min.js"></script>
+  <script type="text/javascript" src="js/index.js"></script>
+
+
+</body>
+</html>

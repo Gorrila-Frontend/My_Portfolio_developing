@@ -1,0 +1,23 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "new portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-sass  scss/index.scss css/index.css -w"
+  },
+  "author": "antony",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GorrilabAD/gorilla.git"
+  },
+  "bugs": {
+    "url": "https://github.com/GorrilabAD/gorilla/issues"
+  },
+  "homepage": "https://github.com/GorrilabAD/gorilla#readme",
+  "dependencies": {
+    "node-modules": "^1.0.1"
+  }
+}
